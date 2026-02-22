@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ventureon - Your Trip</title>
+    <link rel="stylesheet" href="results.css">
+</head>
+<body>
+
+
+    <div id="loadingScreen">
+        <div class="loader"></div>
+        <h2>Crafting Your Perfect Trip...</h2>
+    </div>
+
+    <div id="heroSection" class="hero-section">
+
+        <div id="resultsContainer" class="content-box">
+
+            <h1 id="destinationName"></h1>
+            <div id="map"></div>
+
+
+            <div id="budgetCategory" class="badge"></div>
+
+            <p><strong>Duration:</strong> <span id="daysText"></span> days</p>
+
+            <h3>Activities</h3>
+            <ul id="activitiesList"></ul>
+
+            <button onclick="goBack()">Plan Another Trip</button>
+            
+
+            <button id="overviewBtn" class="overview-btn">Trip Overview</button>
+            <p id="itineraryText"></p>
+
+
+        </div>
+
+    </div>
+
+<script src="results.js"></script>
+
+</body>
+</html>
